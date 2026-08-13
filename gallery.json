@@ -1,0 +1,22 @@
+[
+  {
+    "path": "gallery/airport.jpeg",
+    "caption": "A site visit to the Hong Kong International Airport."
+  },
+  {
+    "path": "gallery/dhl.jpeg",
+    "caption": "A company visit to the DHL office."
+  },
+  {
+    "path": "gallery/gammon.jpg",
+    "caption": "A networking event with Gammon."
+  },
+  {
+    "path": "gallery/legco.jpeg",
+    "caption": "A visit to the Legislative Council Complex."
+  },
+  {
+    "path": "gallery/towngas.jpg",
+    "caption": "Connecting with Towngas."
+  }
+]
