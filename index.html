@@ -516,11 +516,11 @@
       font-weight: 600;
       font-size: 1.1rem;
       line-height: 1.3;
-      transition: background-color 0.2s ease;
+      transition: filter 0.2s ease;
     }
 
     .ht-col:hover .ht-arrow {
-      background-color: var(--color-primary);
+      filter: brightness(0.9);
     }
 
     /* Clip-paths for interlocking chevrons */
@@ -1144,24 +1144,24 @@
         <div class="ht-wrapper" tabindex="0" aria-label="Programme Timeline. Use mouse, touch, or arrow keys to scroll manually.">
           <div class="horizontal-timeline">
 
-            <div class="ht-col step-first phase1" style="flex: 1.2;" data-stage="0">
+            <div class="ht-col step-first" style="flex: 1.2;" data-stage="0">
               <div class="ht-date">August</div>
-              <div class="ht-arrow">Invitation</div>
+              <div class="ht-arrow phase1">Invitation</div>
             </div>
 
-            <div class="ht-col step-middle phase2" style="flex: 2;" data-stage="1">
+            <div class="ht-col step-middle" style="flex: 2;" data-stage="1">
               <div class="ht-date">November</div>
-              <div class="ht-arrow">Briefing and<br>Matching</div>
+              <div class="ht-arrow phase2">Briefing and<br>Matching</div>
             </div>
 
-            <div class="ht-col step-middle phase3" style="flex: 4;" data-stage="2">
+            <div class="ht-col step-middle" style="flex: 4;" data-stage="2">
               <div class="ht-date">November - July</div>
-              <div class="ht-arrow">Business-School Activities</div>
+              <div class="ht-arrow phase3">Business-School Activities</div>
             </div>
 
-            <div class="ht-col step-last phase4" style="flex: 1.5;" data-stage="3">
+            <div class="ht-col step-last" style="flex: 1.5;" data-stage="3">
               <div class="ht-date">July</div>
-              <div class="ht-arrow">Closing<br>Ceremony</div>
+              <div class="ht-arrow phase4">Closing<br>Ceremony</div>
             </div>
 
           </div>
